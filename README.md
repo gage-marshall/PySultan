@@ -1,6 +1,6 @@
-# Chess Engine Frontend
+# PySultan
 
-A Python-based chess game with a graphical interface that supports both human players and custom AI engines. Built with Pygame and the python-chess library.
+A Python-based chess engine with a graphical interface that supports both human players and custom AI engines. Built with Pygame and the python-chess library.
 
 ## Features
 
