@@ -1,6 +1,6 @@
 # PySultan
 
-A Python-based chess engine with a graphical interface that supports both human players and custom AI engines. Built with Pygame and the python-chess library.
+A Python chess interface for human vs AI or AI vs AI play, with a small base class for plugging in your own engines. Built with Pygame and the python-chess library.
 
 ## Features
 
@@ -26,7 +26,7 @@ A Python-based chess engine with a graphical interface that supports both human 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/gage-marshall/PySultan.git@master
+git clone https://github.com/gage-marshall/PySultan.git
 cd PySultan
 ```
 
@@ -34,10 +34,6 @@ cd PySultan
 ```bash
 pip install pygame pygame-gui python-chess numpy torch
 ```
-
-3. Place chess piece images in the `pieces/` folder with naming convention:
-   - `w-pawn.png`, `w-knight.png`, etc. for white pieces
-   - `b-pawn.png`, `b-knight.png`, etc. for black pieces
 
 ## Usage
 
