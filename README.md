@@ -2,6 +2,8 @@
 
 A Python chess interface for human vs AI or AI vs AI play, with a small base class for plugging in your own engines. Built with Pygame and the python-chess library.
 
+![PyTorch Hydra (white) playing the random engine, with the move log and engine pickers](docs/screenshot.png)
+
 ## Features
 
 - Interactive chess board with piece movement and legal move highlighting
@@ -16,7 +18,7 @@ A Python chess interface for human vs AI or AI vs AI play, with a small base cla
 ## Requirements
 
 - Python 3.x
-- pygame
+- pygame-ce (pygame-gui requires the community edition, not `pygame`)
 - pygame-gui
 - python-chess
 - numpy
@@ -32,7 +34,7 @@ cd PySultan
 
 2. Install dependencies:
 ```bash
-pip install pygame pygame-gui python-chess numpy torch
+pip install pygame-ce pygame-gui python-chess numpy torch
 ```
 
 ## Usage
